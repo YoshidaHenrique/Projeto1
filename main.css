@@ -20,13 +20,13 @@ textarea {
 }
 
 header {
-    padding: 30px 0px;
+    padding: 30px 30px;
     background-color: rgb(85, 57, 32);
     color:rgb(255, 253, 253);
 }
 
 header nav li {
-    display: inline;
+    display: flow-root;
     margin-left: 20px;
     color: aliceblue;
     font-size: 20px;
@@ -43,10 +43,10 @@ header nav li a{
     max-width: 1388px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 0;
 }
 
-header .container{  
+header .line{  
     display: flex; /*colocar titulo lado a lado do menu*/
     align-items: center; /* alinha as alturas do titulo e menu*/
     justify-content: space-between; /*alinhados a esquerda e direita*/
@@ -55,7 +55,6 @@ header .container{
 section .container img {
     width: 360px; /*Largura*/
     height: 230px; /*Altura*/ 
-    
 }
 
 #capa {
@@ -72,7 +71,6 @@ section h2 {
     margin-bottom: 16px;
     font-weight: bold;
     font-size: 25px;
-
 }
 
 section{
@@ -121,6 +119,7 @@ section p {
 .contact-methods {
     display: flex;
     justify-content: space-between;
+    width: 96%;
 }
 
 form input,
@@ -148,4 +147,5 @@ footer {
     background-color:#632d02;
     color: #ecf0f1;
     padding: 16px 0px;
+    text-align: center;
 }
